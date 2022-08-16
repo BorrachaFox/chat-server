@@ -14,7 +14,7 @@ const io = new Server(srv, {
   cors: {
     origin: [
       'http://localhost:8080',
-      'https://chat-theta.vercel.app/'
+      'https://chat-theta.vercel.app'
     ],
   },
 })
