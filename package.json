@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec npx ts-node src/server.ts",
-    "start": "node dist/server.js",
     "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.8",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "socket.io": "^4.5.1"
   },
